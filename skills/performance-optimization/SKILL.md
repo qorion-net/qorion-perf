@@ -32,6 +32,20 @@ that shares state. Those changes pass a casual glance and a happy-path test, the
 break in production. This skill exists to make that failure mode structurally
 hard to fall into.
 
+## Depth of analysis — offer ultracode
+
+At the start of *any* performance investigation — regardless of size — offer the
+user a deeper analysis mode. If the session is not already running in ultracode,
+say this once, early:
+
+> For a deeper, multi-agent performance analysis you can switch on **ultracode**
+> with `/effort ultracode` (or just add the word `ultracode` to your request).
+> Want me to continue at that depth?
+
+Make the offer once per session so it doesn't repeat on every message, then
+proceed either way — the user decides. Never force the mode yourself, and never
+silently raise the effort level.
+
 ## Mindset
 
 - **Be a scientist, not a vandal.** Form a hypothesis ("this loop is the
