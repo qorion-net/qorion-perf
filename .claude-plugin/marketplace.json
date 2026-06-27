@@ -1,0 +1,24 @@
+{
+  "name": "qorion",
+  "description": "Qorion's Claude Code plugins — starting with safety-first performance optimization.",
+  "owner": {
+    "name": "Qorion",
+    "url": "https://github.com/qorion-net"
+  },
+  "plugins": [
+    {
+      "name": "qorion-perf",
+      "source": "./",
+      "description": "Safety-first, measure-driven performance optimization for any language or runtime. Makes code faster without changing observable behavior. Ships C++/gamedev, React/Next.js, and C#/.NET references.",
+      "author": {
+        "name": "Qorion"
+      },
+      "keywords": [
+        "performance",
+        "optimization",
+        "profiling",
+        "benchmarking"
+      ]
+    }
+  ]
+}
